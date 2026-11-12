@@ -1,0 +1,69 @@
+{
+  "stem": "00007",
+  "category": "border_touching",
+  "threshold_c": 80.0,
+  "minimum_component_area": 50,
+  "grouping_gap_px": 25,
+  "grouped_box_count": 4,
+  "grouped_boxes_xyxy": [
+    [
+      323,
+      254,
+      414,
+      360
+    ],
+    [
+      526,
+      297,
+      621,
+      332
+    ],
+    [
+      271,
+      423,
+      549,
+      511
+    ],
+    [
+      589,
+      484,
+      639,
+      511
+    ]
+  ],
+  "rgb_shape": [
+    512,
+    640,
+    3
+  ],
+  "box_source": "reports\\phase2_75\\grouped_box_coordinates.csv",
+  "alignment_verified": true,
+  "failure": null,
+  "sam_mask_area_percent": 5.172119140625,
+  "sam_mask_box_areas_percent": [
+    0.4608154296875,
+    0.8938598632812499,
+    3.5473632812500004,
+    0.27008056640625
+  ],
+  "confidence_scores": [
+    0.5465014576911926,
+    0.6965979933738708,
+    0.7056185007095337,
+    0.866919755935669
+  ],
+  "predicted_iou_scores": [
+    0.5465014576911926,
+    0.6965979933738708,
+    0.7056185007095337,
+    0.866919755935669
+  ],
+  "box_inference_seconds": [
+    0.009203700000398385,
+    0.00842819999979838,
+    0.00844939999979033,
+    0.008590299999923445
+  ],
+  "inference_seconds": 0.041721100000359,
+  "mask_valid": true
+}

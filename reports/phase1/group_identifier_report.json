@@ -1,0 +1,113 @@
+{
+  "complete_quartets": 738,
+  "dataset_root": "data\\raw\\FLAME 3 CV Dataset (Sycan Marsh)",
+  "dimension_counts": {
+    "4000x3000": 738,
+    "640x512": 2214
+  },
+  "directory_grouping": [
+    "Fire",
+    "No Fire"
+  ],
+  "duplicate_content_sha256": {},
+  "exif_datetime": {
+    "cross_modality_comparisons": {
+      "raw_rgb_vs_corrected_rgb": {
+        "different": 0,
+        "exact_matches": 738,
+        "quartets_with_both": 738
+      },
+      "raw_rgb_vs_thermal_jpg": {
+        "different": 83,
+        "exact_matches": 655,
+        "quartets_with_both": 738
+      }
+    },
+    "maximum": "2022:10:27 19:23:09",
+    "minimum": "2022:10:25 16:53:40",
+    "per_modality": {
+      "corrected_rgb": {
+        "records_with_datetime": 738,
+        "repeated_values_within_modality": 0,
+        "unique_values": 738
+      },
+      "raw_rgb": {
+        "records_with_datetime": 738,
+        "repeated_values_within_modality": 0,
+        "unique_values": 738
+      },
+      "thermal_jpg": {
+        "records_with_datetime": 738,
+        "repeated_values_within_modality": 0,
+        "unique_values": 738
+      },
+      "thermal_tiff": {
+        "records_with_datetime": 0,
+        "repeated_values_within_modality": 0,
+        "unique_values": 0
+      }
+    },
+    "records_with_datetime": 2214,
+    "sample_values": [
+      "2022:10:26 19:00:51",
+      "2022:10:27 17:47:06",
+      "2022:10:27 19:00:22",
+      "2022:10:27 15:42:24",
+      "2022:10:27 15:42:12",
+      "2022:10:25 16:59:26",
+      "2022:10:27 19:00:19",
+      "2022:10:27 15:27:11",
+      "2022:10:26 18:38:15",
+      "2022:10:25 17:02:06"
+    ],
+    "unique_values": 821
+  },
+  "file_count": 2952,
+  "filename_pattern": {
+    "all_stems_numeric": true,
+    "maximum_numeric_stem": 622,
+    "minimum_numeric_stem": 1,
+    "stem_widths": [
+      5
+    ],
+    "unique_stems": 622
+  },
+  "filesystem_mtime": {
+    "note": "Extraction timestamps are not capture timestamps and are not a reliable temporal identifier.",
+    "unique_values": 2952
+  },
+  "format_counts": {
+    "JPEG": 1476,
+    "MPO": 738,
+    "TIFF": 738
+  },
+  "inspected_image_count": 2952,
+  "invalid_quartets": 0,
+  "mode_counts": {
+    "F": 738,
+    "RGB": 2214
+  },
+  "potential_group_identifiers": [
+    "Fire/No Fire directory label is reliable as a class label, not a temporal group.",
+    "Zero-padded numeric filename stems are reliable quartet keys within each class.",
+    "EXIF capture timestamps are available on raw RGB, corrected-FOV RGB, and thermal JPG files.",
+    "EXIF timestamps identify the capture moment, but do not expose a flight ID or burst ID."
+  ],
+  "split_readiness": {
+    "identifier": "EXIF capture datetime from RGB/thermal JPG files",
+    "reason": "Each quartet has a unique capture timestamp in the available EXIF metadata; this supports chronological blocking, but not explicit flight/burst grouping.",
+    "reliable_temporal_group_identifier_found": true
+  },
+  "thermal_tiff_global_pixel_statistics": {
+    "dtype": "float32",
+    "maximum": 608.6897583007812,
+    "mean": 14.146324157714844,
+    "minimum": -40.558937072753906,
+    "p01": -22.788564682006836,
+    "p05": -19.39656639099121,
+    "p50": 11.644891738891602,
+    "p95": 38.620750427246094,
+    "p99": 127.88860321044922,
+    "pixel_count": 241827840
+  }
+}

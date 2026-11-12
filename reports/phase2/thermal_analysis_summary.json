@@ -1,0 +1,311 @@
+{
+  "dataset_root": "data\\raw\\FLAME 3 CV Dataset (Sycan Marsh)",
+  "manifest": "reports\\phase1\\quartet_manifest.csv",
+  "config": "configs\\thermal_analysis.json",
+  "sample_counts": {
+    "Fire": 622,
+    "No Fire": 116
+  },
+  "candidate_thresholds_c": [
+    40.0,
+    60.0,
+    80.0,
+    100.0,
+    150.0,
+    200.0
+  ],
+  "connectivity": 8,
+  "class_mean_distribution_statistics": {
+    "Fire": {
+      "minimum_c": -17.527765126844983,
+      "maximum_c": 473.1333570940318,
+      "mean_c": 15.284890116027697,
+      "std_c": 25.650334661029927,
+      "p01_c": -12.684019453532251,
+      "p05_c": -7.1747664949134995,
+      "p25_c": 7.916039947887517,
+      "p50_c": 12.175139085272884,
+      "p75_c": 17.04648781742697,
+      "p95_c": 41.06763277207156,
+      "p99_c": 117.94798687275619,
+      "sample_count": 622.0
+    },
+    "No Fire": {
+      "minimum_c": -19.750132685527205,
+      "maximum_c": 25.752931397536706,
+      "mean_c": 8.04125837827551,
+      "std_c": 7.2171867983094575,
+      "p01_c": -14.552094011920794,
+      "p05_c": -9.586019672196487,
+      "p25_c": 7.3812934941258925,
+      "p50_c": 9.631755347909598,
+      "p75_c": 11.673166986169486,
+      "p95_c": 14.99123648528395,
+      "p99_c": 17.274745842506146,
+      "sample_count": 116.0
+    }
+  },
+  "threshold_summary": [
+    {
+      "threshold_c": 40.0,
+      "fire_mean_percent_above": 5.527744599860581,
+      "fire_median_percent_above": 2.887115478515625,
+      "fire_min_percent_above": 0.03814697265625,
+      "fire_max_percent_above": 38.48297119140625,
+      "fire_mean_components": 171.82154340836013,
+      "fire_median_components": 101.0,
+      "fire_mean_largest_component_percent": 2.4650225378692725,
+      "fire_median_largest_component_percent": 1.116485595703125,
+      "no_fire_mean_percent_above": 0.00032885321255387933,
+      "no_fire_median_percent_above": 0.0,
+      "no_fire_min_percent_above": 0.0,
+      "no_fire_max_percent_above": 0.01312255859375,
+      "no_fire_mean_components": 0.3103448275862069,
+      "no_fire_median_components": 0.0,
+      "no_fire_mean_largest_component_percent": 0.00016837284482758622,
+      "no_fire_median_largest_component_percent": 0.0
+    },
+    {
+      "threshold_c": 60.0,
+      "fire_mean_percent_above": 3.303861464718147,
+      "fire_median_percent_above": 1.940460205078125,
+      "fire_min_percent_above": 0.00762939453125,
+      "fire_max_percent_above": 17.9156494140625,
+      "fire_mean_components": 169.60932475884243,
+      "fire_median_components": 95.0,
+      "fire_mean_largest_component_percent": 1.1170974191745378,
+      "fire_median_largest_component_percent": 0.571136474609375,
+      "no_fire_mean_percent_above": 0.0,
+      "no_fire_median_percent_above": 0.0,
+      "no_fire_min_percent_above": 0.0,
+      "no_fire_max_percent_above": 0.0,
+      "no_fire_mean_components": 0.0,
+      "no_fire_median_components": 0.0,
+      "no_fire_mean_largest_component_percent": 0.0,
+      "no_fire_median_largest_component_percent": 0.0
+    },
+    {
+      "threshold_c": 80.0,
+      "fire_mean_percent_above": 2.304351904767886,
+      "fire_median_percent_above": 1.403045654296875,
+      "fire_min_percent_above": 0.0030517578125,
+      "fire_max_percent_above": 11.70166015625,
+      "fire_mean_components": 152.42604501607718,
+      "fire_median_components": 89.5,
+      "fire_mean_largest_component_percent": 0.7034036814208199,
+      "fire_median_largest_component_percent": 0.377197265625,
+      "no_fire_mean_percent_above": 0.0,
+      "no_fire_median_percent_above": 0.0,
+      "no_fire_min_percent_above": 0.0,
+      "no_fire_max_percent_above": 0.0,
+      "no_fire_mean_components": 0.0,
+      "no_fire_median_components": 0.0,
+      "no_fire_mean_largest_component_percent": 0.0,
+      "no_fire_median_largest_component_percent": 0.0
+    },
+    {
+      "threshold_c": 100.0,
+      "fire_mean_percent_above": 1.700268221054813,
+      "fire_median_percent_above": 1.06781005859375,
+      "fire_min_percent_above": 0.00030517578125,
+      "fire_max_percent_above": 8.28338623046875,
+      "fire_mean_components": 134.56752411575562,
+      "fire_median_components": 80.0,
+      "fire_mean_largest_component_percent": 0.48579470521000806,
+      "fire_median_largest_component_percent": 0.2728271484375,
+      "no_fire_mean_percent_above": 0.0,
+      "no_fire_median_percent_above": 0.0,
+      "no_fire_min_percent_above": 0.0,
+      "no_fire_max_percent_above": 0.0,
+      "no_fire_mean_components": 0.0,
+      "no_fire_median_components": 0.0,
+      "no_fire_mean_largest_component_percent": 0.0,
+      "no_fire_median_largest_component_percent": 0.0
+    },
+    {
+      "threshold_c": 150.0,
+      "fire_mean_percent_above": 0.9214748370302451,
+      "fire_median_percent_above": 0.585479736328125,
+      "fire_min_percent_above": 0.0,
+      "fire_max_percent_above": 4.82147216796875,
+      "fire_mean_components": 94.19935691318328,
+      "fire_median_components": 57.0,
+      "fire_mean_largest_component_percent": 0.2867999797465334,
+      "fire_median_largest_component_percent": 0.13702392578125,
+      "no_fire_mean_percent_above": 0.0,
+      "no_fire_median_percent_above": 0.0,
+      "no_fire_min_percent_above": 0.0,
+      "no_fire_max_percent_above": 0.0,
+      "no_fire_mean_components": 0.0,
+      "no_fire_median_components": 0.0,
+      "no_fire_mean_largest_component_percent": 0.0,
+      "no_fire_median_largest_component_percent": 0.0
+    },
+    {
+      "threshold_c": 200.0,
+      "fire_mean_percent_above": 0.5069563396490655,
+      "fire_median_percent_above": 0.26702880859375,
+      "fire_min_percent_above": 0.0,
+      "fire_max_percent_above": 3.0572509765625,
+      "fire_mean_components": 58.366559485530544,
+      "fire_median_components": 34.0,
+      "fire_mean_largest_component_percent": 0.17456839705586816,
+      "fire_median_largest_component_percent": 0.07080078125,
+      "no_fire_mean_percent_above": 0.0,
+      "no_fire_median_percent_above": 0.0,
+      "no_fire_min_percent_above": 0.0,
+      "no_fire_max_percent_above": 0.0,
+      "no_fire_mean_components": 0.0,
+      "no_fire_median_components": 0.0,
+      "no_fire_mean_largest_component_percent": 0.0,
+      "no_fire_median_largest_component_percent": 0.0
+    }
+  ],
+  "visualization_samples": [
+    {
+      "label": "Fire",
+      "stem": "00531",
+      "threshold_c": 40.0,
+      "name": "fire_smallest_40c_00531"
+    },
+    {
+      "label": "Fire",
+      "stem": "00507",
+      "threshold_c": 40.0,
+      "name": "fire_largest_40c_00507"
+    },
+    {
+      "label": "Fire",
+      "stem": "00531",
+      "threshold_c": 60.0,
+      "name": "fire_smallest_60c_00531"
+    },
+    {
+      "label": "Fire",
+      "stem": "00396",
+      "threshold_c": 60.0,
+      "name": "fire_largest_60c_00396"
+    },
+    {
+      "label": "Fire",
+      "stem": "00531",
+      "threshold_c": 80.0,
+      "name": "fire_smallest_80c_00531"
+    },
+    {
+      "label": "Fire",
+      "stem": "00396",
+      "threshold_c": 80.0,
+      "name": "fire_largest_80c_00396"
+    },
+    {
+      "label": "Fire",
+      "stem": "00531",
+      "threshold_c": 100.0,
+      "name": "fire_smallest_100c_00531"
+    },
+    {
+      "label": "Fire",
+      "stem": "00592",
+      "threshold_c": 100.0,
+      "name": "fire_largest_100c_00592"
+    },
+    {
+      "label": "Fire",
+      "stem": "00531",
+      "threshold_c": 150.0,
+      "name": "fire_smallest_150c_00531"
+    },
+    {
+      "label": "Fire",
+      "stem": "00592",
+      "threshold_c": 150.0,
+      "name": "fire_largest_150c_00592"
+    },
+    {
+      "label": "Fire",
+      "stem": "00006",
+      "threshold_c": 200.0,
+      "name": "fire_smallest_200c_00006"
+    },
+    {
+      "label": "Fire",
+      "stem": "00110",
+      "threshold_c": 200.0,
+      "name": "fire_largest_200c_00110"
+    },
+    {
+      "label": "No Fire",
+      "stem": "00106",
+      "threshold_c": 40.0,
+      "name": "no_fire_largest_40c_00106"
+    },
+    {
+      "label": "No Fire",
+      "stem": "00001",
+      "threshold_c": 60.0,
+      "name": "no_fire_largest_60c_00001"
+    },
+    {
+      "label": "No Fire",
+      "stem": "00001",
+      "threshold_c": 80.0,
+      "name": "no_fire_largest_80c_00001"
+    },
+    {
+      "label": "No Fire",
+      "stem": "00001",
+      "threshold_c": 100.0,
+      "name": "no_fire_largest_100c_00001"
+    },
+    {
+      "label": "No Fire",
+      "stem": "00001",
+      "threshold_c": 150.0,
+      "name": "no_fire_largest_150c_00001"
+    },
+    {
+      "label": "No Fire",
+      "stem": "00001",
+      "threshold_c": 200.0,
+      "name": "no_fire_largest_200c_00001"
+    },
+    {
+      "label": "Fire",
+      "stem": "00507",
+      "threshold_c": 40.0,
+      "name": "threshold_sensitive_fire_00507"
+    },
+    {
+      "label": "Fire",
+      "stem": "00189",
+      "threshold_c": 40.0,
+      "name": "threshold_sensitive_fire_00189"
+    },
+    {
+      "label": "Fire",
+      "stem": "00518",
+      "threshold_c": 40.0,
+      "name": "threshold_sensitive_fire_00518"
+    },
+    {
+      "label": "Fire",
+      "stem": "00211",
+      "threshold_c": 40.0,
+      "name": "threshold_sensitive_fire_00211"
+    },
+    {
+      "label": "Fire",
+      "stem": "00281",
+      "threshold_c": 40.0,
+      "name": "threshold_sensitive_fire_00281"
+    },
+    {
+      "label": "Fire",
+      "stem": "00268",
+      "threshold_c": 40.0,
+      "name": "threshold_sensitive_fire_00268"
+    }
+  ],
+  "interpretation_boundary": "Threshold statistics quantify hot-pixel coverage only. They do not create labels, connected components, bounding boxes, or SAM masks. Spatial plausibility requires visual review of the saved temperature maps and histograms."
+}

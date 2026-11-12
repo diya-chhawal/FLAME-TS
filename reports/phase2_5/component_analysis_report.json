@@ -1,0 +1,38 @@
+{
+  "config": "configs\\phase2_5_component_analysis.json",
+  "manifest": "reports\\phase1\\quartet_manifest.csv",
+  "sample_count": 738,
+  "connectivity": 8,
+  "candidate_thresholds_c": [
+    60.0,
+    80.0,
+    100.0
+  ],
+  "minimum_component_areas": [
+    10,
+    50,
+    100,
+    500,
+    1000
+  ],
+  "metric_rows": 11070,
+  "visualization_count": 30,
+  "pilot_candidates": [
+    {
+      "threshold_c": 60,
+      "minimum_component_area": 100,
+      "reason": "Retained components occur in 610/622 Fire samples and 0/116 No Fire samples; this is a stricter spatial candidate that should be inspected for lost weak regions."
+    },
+    {
+      "threshold_c": 80,
+      "minimum_component_area": 50,
+      "reason": "Retained components occur in 612/622 Fire samples and 0/116 No Fire samples; this balances a higher thermal threshold with a moderate area filter."
+    },
+    {
+      "threshold_c": 100,
+      "minimum_component_area": 10,
+      "reason": "Retained components occur in 620/622 Fire samples and 0/116 No Fire samples; this emphasizes intense regions while applying only a small-component cleanup."
+    }
+  ],
+  "boundary": "These are pilot candidates only. No threshold or component filter is selected, hard-coded as a label rule, or used to generate SAM masks."
+}

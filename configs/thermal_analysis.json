@@ -1,0 +1,4 @@
+{
+  "candidate_thresholds_c": [40, 60, 80, 100, 150, 200],
+  "connectivity": 8
+}

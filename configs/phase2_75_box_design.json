@@ -1,0 +1,11 @@
+{
+  "pilot_configurations": [
+    {"threshold_c": 60, "minimum_component_area": 100},
+    {"threshold_c": 80, "minimum_component_area": 50},
+    {"threshold_c": 100, "minimum_component_area": 10}
+  ],
+  "grouping_distances_px": [10, 25, 50],
+  "connectivity": 8,
+  "excessive_box_area_fraction": 0.25,
+  "visualization_cases": 5
+}

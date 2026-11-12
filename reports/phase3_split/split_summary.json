@@ -1,0 +1,39 @@
+{
+  "source": "reports\\phase1\\image_metadata.csv",
+  "temporal_block_gap_seconds": 60,
+  "counts": {
+    "train": {
+      "total": 517,
+      "Fire": 435,
+      "No Fire": 82
+    },
+    "validation": {
+      "total": 111,
+      "Fire": 95,
+      "No Fire": 16
+    },
+    "test": {
+      "total": 110,
+      "Fire": 92,
+      "No Fire": 18
+    }
+  },
+  "timestamp_ranges": {
+    "train": {
+      "minimum": "2022-10-25 16:53:40",
+      "maximum": "2022-10-27 19:23:08"
+    },
+    "validation": {
+      "minimum": "2022-10-25 16:58:41",
+      "maximum": "2022-10-27 19:01:19"
+    },
+    "test": {
+      "minimum": "2022-10-25 16:57:44",
+      "maximum": "2022-10-27 19:19:01"
+    }
+  },
+  "duplicate_timestamps": [],
+  "cross_split_identical_timestamps": [],
+  "unique_quartets": 738,
+  "missing_or_duplicate_stems_within_label": false
+}

@@ -1,0 +1,894 @@
+{
+  "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+  "model": "vit_b",
+  "device": "cuda",
+  "configurations": [
+    {
+      "threshold_c": 60.0,
+      "minimum_component_area": 100
+    },
+    {
+      "threshold_c": 80.0,
+      "minimum_component_area": 50
+    },
+    {
+      "threshold_c": 100.0,
+      "minimum_component_area": 10
+    }
+  ],
+  "results": [
+    {
+      "label": "Fire",
+      "stem": "00001",
+      "case_category": "easy",
+      "threshold_c": 60.0,
+      "minimum_component_area": 100,
+      "rgb_source": "Fire/RGB/Corrected FOV/00001.JPG",
+      "thermal_source": "Fire/Thermal/Celsius TIFF/00001.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [],
+      "warnings": [],
+      "thermal_foreground_pixels": 15115,
+      "thermal_foreground_percent": 4.61273193359375,
+      "box_xyxy": [
+        118,
+        298,
+        311,
+        388
+      ],
+      "box_width": 194,
+      "box_height": 91,
+      "box_area_percent": 5.3875732421875,
+      "inference_seconds": 2.232671500009019,
+      "returned_mask_count": 1,
+      "confidence_scores": [
+        0.5776958465576172
+      ],
+      "mask_valid": true,
+      "sam_mask_pixels": 788,
+      "sam_mask_area_percent": 0.240478515625
+    },
+    {
+      "label": "Fire",
+      "stem": "00002",
+      "case_category": "weak",
+      "threshold_c": 60.0,
+      "minimum_component_area": 100,
+      "rgb_source": "Fire/RGB/Corrected FOV/00002.JPG",
+      "thermal_source": "Fire/Thermal/Celsius TIFF/00002.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [],
+      "warnings": [],
+      "thermal_foreground_pixels": 10523,
+      "thermal_foreground_percent": 3.21136474609375,
+      "box_xyxy": [
+        470,
+        320,
+        561,
+        359
+      ],
+      "box_width": 92,
+      "box_height": 40,
+      "box_area_percent": 1.123046875,
+      "inference_seconds": 0.7765837999759242,
+      "returned_mask_count": 1,
+      "confidence_scores": [
+        0.8068408966064453
+      ],
+      "mask_valid": true,
+      "sam_mask_pixels": 1249,
+      "sam_mask_area_percent": 0.38116455078125
+    },
+    {
+      "label": "Fire",
+      "stem": "00003",
+      "case_category": "fragmented",
+      "threshold_c": 60.0,
+      "minimum_component_area": 100,
+      "rgb_source": "Fire/RGB/Corrected FOV/00003.JPG",
+      "thermal_source": "Fire/Thermal/Celsius TIFF/00003.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [],
+      "warnings": [],
+      "thermal_foreground_pixels": 9740,
+      "thermal_foreground_percent": 2.972412109375,
+      "box_xyxy": [
+        502,
+        436,
+        607,
+        479
+      ],
+      "box_width": 106,
+      "box_height": 44,
+      "box_area_percent": 1.42333984375,
+      "inference_seconds": 0.783929499972146,
+      "returned_mask_count": 1,
+      "confidence_scores": [
+        0.8483176231384277
+      ],
+      "mask_valid": true,
+      "sam_mask_pixels": 1945,
+      "sam_mask_area_percent": 0.59356689453125
+    },
+    {
+      "label": "Fire",
+      "stem": "00004",
+      "case_category": "multi_region",
+      "threshold_c": 60.0,
+      "minimum_component_area": 100,
+      "rgb_source": "Fire/RGB/Corrected FOV/00004.JPG",
+      "thermal_source": "Fire/Thermal/Celsius TIFF/00004.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [],
+      "warnings": [],
+      "thermal_foreground_pixels": 6547,
+      "thermal_foreground_percent": 1.9979858398437502,
+      "box_xyxy": [
+        389,
+        280,
+        465,
+        312
+      ],
+      "box_width": 77,
+      "box_height": 33,
+      "box_area_percent": 0.77545166015625,
+      "inference_seconds": 0.7884575999923982,
+      "returned_mask_count": 1,
+      "confidence_scores": [
+        0.7578588724136353
+      ],
+      "mask_valid": true,
+      "sam_mask_pixels": 969,
+      "sam_mask_area_percent": 0.29571533203125
+    },
+    {
+      "label": "Fire",
+      "stem": "00007",
+      "case_category": "border_touching",
+      "threshold_c": 60.0,
+      "minimum_component_area": 100,
+      "rgb_source": "Fire/RGB/Corrected FOV/00007.JPG",
+      "thermal_source": "Fire/Thermal/Celsius TIFF/00007.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [],
+      "warnings": [],
+      "thermal_foreground_pixels": 13823,
+      "thermal_foreground_percent": 4.21844482421875,
+      "box_xyxy": [
+        270,
+        429,
+        406,
+        511
+      ],
+      "box_width": 137,
+      "box_height": 83,
+      "box_area_percent": 3.4701538085937496,
+      "inference_seconds": 0.7843614000012167,
+      "returned_mask_count": 1,
+      "confidence_scores": [
+        0.9135046601295471
+      ],
+      "mask_valid": true,
+      "sam_mask_pixels": 7234,
+      "sam_mask_area_percent": 2.2076416015625
+    },
+    {
+      "label": "No Fire",
+      "stem": "00001",
+      "case_category": "no_fire",
+      "threshold_c": 60.0,
+      "minimum_component_area": 100,
+      "rgb_source": "No Fire/RGB/Corrected FOV/00001.JPG",
+      "thermal_source": "No Fire/Thermal/Celsius TIFF/00001.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [
+        "No valid largest-component box; SAM not run"
+      ],
+      "warnings": [],
+      "thermal_foreground_pixels": 0,
+      "thermal_foreground_percent": 0.0
+    },
+    {
+      "label": "No Fire",
+      "stem": "00002",
+      "case_category": "no_fire",
+      "threshold_c": 60.0,
+      "minimum_component_area": 100,
+      "rgb_source": "No Fire/RGB/Corrected FOV/00002.JPG",
+      "thermal_source": "No Fire/Thermal/Celsius TIFF/00002.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [
+        "No valid largest-component box; SAM not run"
+      ],
+      "warnings": [],
+      "thermal_foreground_pixels": 0,
+      "thermal_foreground_percent": 0.0
+    },
+    {
+      "label": "No Fire",
+      "stem": "00003",
+      "case_category": "no_fire",
+      "threshold_c": 60.0,
+      "minimum_component_area": 100,
+      "rgb_source": "No Fire/RGB/Corrected FOV/00003.JPG",
+      "thermal_source": "No Fire/Thermal/Celsius TIFF/00003.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [
+        "No valid largest-component box; SAM not run"
+      ],
+      "warnings": [],
+      "thermal_foreground_pixels": 0,
+      "thermal_foreground_percent": 0.0
+    },
+    {
+      "label": "Fire",
+      "stem": "00001",
+      "case_category": "easy",
+      "threshold_c": 80.0,
+      "minimum_component_area": 50,
+      "rgb_source": "Fire/RGB/Corrected FOV/00001.JPG",
+      "thermal_source": "Fire/Thermal/Celsius TIFF/00001.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [],
+      "warnings": [],
+      "thermal_foreground_pixels": 11322,
+      "thermal_foreground_percent": 3.4552001953125,
+      "box_xyxy": [
+        126,
+        323,
+        307,
+        387
+      ],
+      "box_width": 182,
+      "box_height": 65,
+      "box_area_percent": 3.6102294921875,
+      "inference_seconds": 0.7865808000206016,
+      "returned_mask_count": 1,
+      "confidence_scores": [
+        0.8285938501358032
+      ],
+      "mask_valid": true,
+      "sam_mask_pixels": 767,
+      "sam_mask_area_percent": 0.23406982421875
+    },
+    {
+      "label": "Fire",
+      "stem": "00002",
+      "case_category": "weak",
+      "threshold_c": 80.0,
+      "minimum_component_area": 50,
+      "rgb_source": "Fire/RGB/Corrected FOV/00002.JPG",
+      "thermal_source": "Fire/Thermal/Celsius TIFF/00002.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [],
+      "warnings": [],
+      "thermal_foreground_pixels": 7286,
+      "thermal_foreground_percent": 2.2235107421875,
+      "box_xyxy": [
+        471,
+        320,
+        561,
+        358
+      ],
+      "box_width": 91,
+      "box_height": 39,
+      "box_area_percent": 1.08306884765625,
+      "inference_seconds": 0.7903789000120014,
+      "returned_mask_count": 1,
+      "confidence_scores": [
+        0.8056601285934448
+      ],
+      "mask_valid": true,
+      "sam_mask_pixels": 1229,
+      "sam_mask_area_percent": 0.37506103515625
+    },
+    {
+      "label": "Fire",
+      "stem": "00003",
+      "case_category": "fragmented",
+      "threshold_c": 80.0,
+      "minimum_component_area": 50,
+      "rgb_source": "Fire/RGB/Corrected FOV/00003.JPG",
+      "thermal_source": "Fire/Thermal/Celsius TIFF/00003.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [],
+      "warnings": [],
+      "thermal_foreground_pixels": 5466,
+      "thermal_foreground_percent": 1.6680908203125,
+      "box_xyxy": [
+        551,
+        448,
+        596,
+        470
+      ],
+      "box_width": 46,
+      "box_height": 23,
+      "box_area_percent": 0.3228759765625,
+      "inference_seconds": 0.7905516000464559,
+      "returned_mask_count": 1,
+      "confidence_scores": [
+        0.7771989107131958
+      ],
+      "mask_valid": true,
+      "sam_mask_pixels": 713,
+      "sam_mask_area_percent": 0.21759033203125
+    },
+    {
+      "label": "Fire",
+      "stem": "00004",
+      "case_category": "multi_region",
+      "threshold_c": 80.0,
+      "minimum_component_area": 50,
+      "rgb_source": "Fire/RGB/Corrected FOV/00004.JPG",
+      "thermal_source": "Fire/Thermal/Celsius TIFF/00004.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [],
+      "warnings": [],
+      "thermal_foreground_pixels": 4942,
+      "thermal_foreground_percent": 1.5081787109375,
+      "box_xyxy": [
+        391,
+        282,
+        465,
+        310
+      ],
+      "box_width": 75,
+      "box_height": 29,
+      "box_area_percent": 0.66375732421875,
+      "inference_seconds": 0.7919118999852799,
+      "returned_mask_count": 1,
+      "confidence_scores": [
+        0.8033297061920166
+      ],
+      "mask_valid": true,
+      "sam_mask_pixels": 945,
+      "sam_mask_area_percent": 0.28839111328125
+    },
+    {
+      "label": "Fire",
+      "stem": "00007",
+      "case_category": "border_touching",
+      "threshold_c": 80.0,
+      "minimum_component_area": 50,
+      "rgb_source": "Fire/RGB/Corrected FOV/00007.JPG",
+      "thermal_source": "Fire/Thermal/Celsius TIFF/00007.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [],
+      "warnings": [],
+      "thermal_foreground_pixels": 9414,
+      "thermal_foreground_percent": 2.8729248046875,
+      "box_xyxy": [
+        271,
+        430,
+        406,
+        511
+      ],
+      "box_width": 136,
+      "box_height": 82,
+      "box_area_percent": 3.4033203125,
+      "inference_seconds": 0.7931557000265457,
+      "returned_mask_count": 1,
+      "confidence_scores": [
+        0.9123620986938477
+      ],
+      "mask_valid": true,
+      "sam_mask_pixels": 7359,
+      "sam_mask_area_percent": 2.24578857421875
+    },
+    {
+      "label": "No Fire",
+      "stem": "00001",
+      "case_category": "no_fire",
+      "threshold_c": 80.0,
+      "minimum_component_area": 50,
+      "rgb_source": "No Fire/RGB/Corrected FOV/00001.JPG",
+      "thermal_source": "No Fire/Thermal/Celsius TIFF/00001.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [
+        "No valid largest-component box; SAM not run"
+      ],
+      "warnings": [],
+      "thermal_foreground_pixels": 0,
+      "thermal_foreground_percent": 0.0
+    },
+    {
+      "label": "No Fire",
+      "stem": "00002",
+      "case_category": "no_fire",
+      "threshold_c": 80.0,
+      "minimum_component_area": 50,
+      "rgb_source": "No Fire/RGB/Corrected FOV/00002.JPG",
+      "thermal_source": "No Fire/Thermal/Celsius TIFF/00002.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [
+        "No valid largest-component box; SAM not run"
+      ],
+      "warnings": [],
+      "thermal_foreground_pixels": 0,
+      "thermal_foreground_percent": 0.0
+    },
+    {
+      "label": "No Fire",
+      "stem": "00003",
+      "case_category": "no_fire",
+      "threshold_c": 80.0,
+      "minimum_component_area": 50,
+      "rgb_source": "No Fire/RGB/Corrected FOV/00003.JPG",
+      "thermal_source": "No Fire/Thermal/Celsius TIFF/00003.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [
+        "No valid largest-component box; SAM not run"
+      ],
+      "warnings": [],
+      "thermal_foreground_pixels": 0,
+      "thermal_foreground_percent": 0.0
+    },
+    {
+      "label": "Fire",
+      "stem": "00001",
+      "case_category": "easy",
+      "threshold_c": 100.0,
+      "minimum_component_area": 10,
+      "rgb_source": "Fire/RGB/Corrected FOV/00001.JPG",
+      "thermal_source": "Fire/Thermal/Celsius TIFF/00001.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [],
+      "warnings": [],
+      "thermal_foreground_pixels": 9124,
+      "thermal_foreground_percent": 2.784423828125,
+      "box_xyxy": [
+        128,
+        325,
+        298,
+        387
+      ],
+      "box_width": 171,
+      "box_height": 63,
+      "box_area_percent": 3.28765869140625,
+      "inference_seconds": 0.7988278999691829,
+      "returned_mask_count": 1,
+      "confidence_scores": [
+        0.8374630212783813
+      ],
+      "mask_valid": true,
+      "sam_mask_pixels": 751,
+      "sam_mask_area_percent": 0.22918701171874997
+    },
+    {
+      "label": "Fire",
+      "stem": "00002",
+      "case_category": "weak",
+      "threshold_c": 100.0,
+      "minimum_component_area": 10,
+      "rgb_source": "Fire/RGB/Corrected FOV/00002.JPG",
+      "thermal_source": "Fire/Thermal/Celsius TIFF/00002.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [],
+      "warnings": [],
+      "thermal_foreground_pixels": 5374,
+      "thermal_foreground_percent": 1.6400146484375,
+      "box_xyxy": [
+        472,
+        322,
+        560,
+        358
+      ],
+      "box_width": 89,
+      "box_height": 37,
+      "box_area_percent": 1.00494384765625,
+      "inference_seconds": 0.7959348000003956,
+      "returned_mask_count": 1,
+      "confidence_scores": [
+        0.8112132549285889
+      ],
+      "mask_valid": true,
+      "sam_mask_pixels": 1224,
+      "sam_mask_area_percent": 0.37353515625
+    },
+    {
+      "label": "Fire",
+      "stem": "00003",
+      "case_category": "fragmented",
+      "threshold_c": 100.0,
+      "minimum_component_area": 10,
+      "rgb_source": "Fire/RGB/Corrected FOV/00003.JPG",
+      "thermal_source": "Fire/Thermal/Celsius TIFF/00003.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [],
+      "warnings": [],
+      "thermal_foreground_pixels": 2829,
+      "thermal_foreground_percent": 0.8633422851562499,
+      "box_xyxy": [
+        385,
+        476,
+        425,
+        491
+      ],
+      "box_width": 41,
+      "box_height": 16,
+      "box_area_percent": 0.20019531249999997,
+      "inference_seconds": 0.8108083000406623,
+      "returned_mask_count": 1,
+      "confidence_scores": [
+        0.7253139019012451
+      ],
+      "mask_valid": true,
+      "sam_mask_pixels": 412,
+      "sam_mask_area_percent": 0.125732421875
+    },
+    {
+      "label": "Fire",
+      "stem": "00004",
+      "case_category": "multi_region",
+      "threshold_c": 100.0,
+      "minimum_component_area": 10,
+      "rgb_source": "Fire/RGB/Corrected FOV/00004.JPG",
+      "thermal_source": "Fire/Thermal/Celsius TIFF/00004.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [],
+      "warnings": [],
+      "thermal_foreground_pixels": 3939,
+      "thermal_foreground_percent": 1.20208740234375,
+      "box_xyxy": [
+        275,
+        281,
+        332,
+        311
+      ],
+      "box_width": 58,
+      "box_height": 31,
+      "box_area_percent": 0.5487060546875,
+      "inference_seconds": 0.7956190999830142,
+      "returned_mask_count": 1,
+      "confidence_scores": [
+        0.8309964537620544
+      ],
+      "mask_valid": true,
+      "sam_mask_pixels": 1231,
+      "sam_mask_area_percent": 0.37567138671875
+    },
+    {
+      "label": "Fire",
+      "stem": "00007",
+      "case_category": "border_touching",
+      "threshold_c": 100.0,
+      "minimum_component_area": 10,
+      "rgb_source": "Fire/RGB/Corrected FOV/00007.JPG",
+      "thermal_source": "Fire/Thermal/Celsius TIFF/00007.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [],
+      "warnings": [],
+      "thermal_foreground_pixels": 6762,
+      "thermal_foreground_percent": 2.0635986328125,
+      "box_xyxy": [
+        272,
+        436,
+        403,
+        511
+      ],
+      "box_width": 132,
+      "box_height": 76,
+      "box_area_percent": 3.0615234375,
+      "inference_seconds": 0.8034138000220992,
+      "returned_mask_count": 1,
+      "confidence_scores": [
+        0.9226065874099731
+      ],
+      "mask_valid": true,
+      "sam_mask_pixels": 6999,
+      "sam_mask_area_percent": 2.13592529296875
+    },
+    {
+      "label": "No Fire",
+      "stem": "00001",
+      "case_category": "no_fire",
+      "threshold_c": 100.0,
+      "minimum_component_area": 10,
+      "rgb_source": "No Fire/RGB/Corrected FOV/00001.JPG",
+      "thermal_source": "No Fire/Thermal/Celsius TIFF/00001.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [
+        "No valid largest-component box; SAM not run"
+      ],
+      "warnings": [],
+      "thermal_foreground_pixels": 0,
+      "thermal_foreground_percent": 0.0
+    },
+    {
+      "label": "No Fire",
+      "stem": "00002",
+      "case_category": "no_fire",
+      "threshold_c": 100.0,
+      "minimum_component_area": 10,
+      "rgb_source": "No Fire/RGB/Corrected FOV/00002.JPG",
+      "thermal_source": "No Fire/Thermal/Celsius TIFF/00002.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [
+        "No valid largest-component box; SAM not run"
+      ],
+      "warnings": [],
+      "thermal_foreground_pixels": 0,
+      "thermal_foreground_percent": 0.0
+    },
+    {
+      "label": "No Fire",
+      "stem": "00003",
+      "case_category": "no_fire",
+      "threshold_c": 100.0,
+      "minimum_component_area": 10,
+      "rgb_source": "No Fire/RGB/Corrected FOV/00003.JPG",
+      "thermal_source": "No Fire/Thermal/Celsius TIFF/00003.TIFF",
+      "device": "cuda",
+      "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+      "rgb_shape": [
+        512,
+        640,
+        3
+      ],
+      "thermal_shape": [
+        512,
+        640
+      ],
+      "alignment_verified": true,
+      "failures": [
+        "No valid largest-component box; SAM not run"
+      ],
+      "warnings": [],
+      "thermal_foreground_pixels": 0,
+      "thermal_foreground_percent": 0.0
+    }
+  ]
+}

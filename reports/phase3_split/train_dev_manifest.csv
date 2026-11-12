@@ -1,0 +1,441 @@
+label,stem,timestamp,split
+Fire,2,2022-10-27 17:47:06,train_dev
+Fire,8,2022-10-27 15:27:11,train_dev
+Fire,10,2022-10-25 17:02:06,train_dev
+Fire,11,2022-10-27 15:41:57,train_dev
+Fire,12,2022-10-26 18:34:57,train_dev
+Fire,13,2022-10-27 17:46:54,train_dev
+Fire,16,2022-10-27 17:46:36,train_dev
+Fire,18,2022-10-27 15:39:05,train_dev
+Fire,19,2022-10-27 17:11:07,train_dev
+Fire,20,2022-10-27 15:27:02,train_dev
+Fire,21,2022-10-25 17:02:56,train_dev
+Fire,23,2022-10-27 15:27:20,train_dev
+Fire,24,2022-10-27 17:11:22,train_dev
+Fire,26,2022-10-27 17:48:47,train_dev
+Fire,27,2022-10-27 15:38:52,train_dev
+Fire,29,2022-10-26 18:33:42,train_dev
+Fire,31,2022-10-26 18:44:45,train_dev
+Fire,33,2022-10-26 18:33:36,train_dev
+Fire,34,2022-10-25 17:02:23,train_dev
+Fire,37,2022-10-27 17:11:55,train_dev
+Fire,39,2022-10-27 15:42:42,train_dev
+Fire,41,2022-10-27 17:48:32,train_dev
+Fire,42,2022-10-27 17:10:55,train_dev
+Fire,44,2022-10-27 17:49:11,train_dev
+Fire,45,2022-10-26 18:32:30,train_dev
+Fire,46,2022-10-26 19:11:57,train_dev
+Fire,47,2022-10-27 15:38:31,train_dev
+Fire,48,2022-10-27 15:43:30,train_dev
+Fire,50,2022-10-27 15:43:27,train_dev
+Fire,52,2022-10-27 15:39:29,train_dev
+Fire,53,2022-10-27 15:41:27,train_dev
+Fire,55,2022-10-27 15:27:23,train_dev
+Fire,56,2022-10-26 18:43:30,train_dev
+Fire,57,2022-10-27 17:12:10,train_dev
+Fire,58,2022-10-27 15:43:12,train_dev
+Fire,59,2022-10-27 15:43:33,train_dev
+Fire,62,2022-10-27 15:40:17,train_dev
+Fire,63,2022-10-27 17:10:49,train_dev
+Fire,64,2022-10-27 15:42:27,train_dev
+Fire,67,2022-10-26 18:32:57,train_dev
+Fire,68,2022-10-26 18:33:39,train_dev
+Fire,70,2022-10-25 17:02:17,train_dev
+Fire,74,2022-10-26 18:44:15,train_dev
+Fire,78,2022-10-26 18:43:45,train_dev
+Fire,79,2022-10-27 17:49:56,train_dev
+Fire,80,2022-10-26 18:32:48,train_dev
+Fire,83,2022-10-27 15:38:55,train_dev
+Fire,84,2022-10-27 15:43:15,train_dev
+Fire,90,2022-10-27 17:47:08,train_dev
+Fire,92,2022-10-27 17:47:10,train_dev
+Fire,93,2022-10-27 15:42:39,train_dev
+Fire,95,2022-10-27 17:48:35,train_dev
+Fire,96,2022-10-27 15:40:26,train_dev
+Fire,97,2022-10-27 15:41:24,train_dev
+Fire,99,2022-10-27 17:47:22,train_dev
+Fire,100,2022-10-27 17:48:23,train_dev
+Fire,101,2022-10-27 17:48:59,train_dev
+Fire,102,2022-10-27 17:47:50,train_dev
+Fire,104,2022-10-26 18:32:24,train_dev
+Fire,105,2022-10-25 16:54:10,train_dev
+Fire,106,2022-10-26 18:34:48,train_dev
+Fire,108,2022-10-27 17:48:38,train_dev
+Fire,109,2022-10-27 15:40:11,train_dev
+Fire,113,2022-10-25 17:01:47,train_dev
+Fire,115,2022-10-27 19:22:14,train_dev
+Fire,116,2022-10-26 18:34:15,train_dev
+Fire,117,2022-10-26 18:43:39,train_dev
+Fire,118,2022-10-27 17:47:47,train_dev
+Fire,119,2022-10-26 18:33:09,train_dev
+Fire,120,2022-10-27 19:22:53,train_dev
+Fire,121,2022-10-25 17:02:44,train_dev
+Fire,125,2022-10-27 17:45:44,train_dev
+Fire,126,2022-10-27 15:42:00,train_dev
+Fire,127,2022-10-27 15:41:15,train_dev
+Fire,128,2022-10-27 15:39:17,train_dev
+Fire,130,2022-10-27 15:38:40,train_dev
+Fire,132,2022-10-26 19:12:06,train_dev
+Fire,133,2022-10-27 15:40:35,train_dev
+Fire,134,2022-10-27 17:45:48,train_dev
+Fire,138,2022-10-25 17:02:41,train_dev
+Fire,139,2022-10-27 15:39:08,train_dev
+Fire,142,2022-10-27 15:40:57,train_dev
+Fire,143,2022-10-25 17:02:53,train_dev
+Fire,148,2022-10-27 17:49:20,train_dev
+Fire,149,2022-10-27 17:46:50,train_dev
+Fire,151,2022-10-25 16:53:46,train_dev
+Fire,153,2022-10-27 15:41:36,train_dev
+Fire,154,2022-10-26 18:32:45,train_dev
+Fire,155,2022-10-27 15:40:14,train_dev
+Fire,156,2022-10-27 19:23:02,train_dev
+Fire,157,2022-10-25 17:01:33,train_dev
+Fire,158,2022-10-27 15:41:00,train_dev
+Fire,159,2022-10-27 17:49:05,train_dev
+Fire,160,2022-10-25 17:01:57,train_dev
+Fire,161,2022-10-27 17:46:38,train_dev
+Fire,162,2022-10-27 19:22:08,train_dev
+Fire,164,2022-10-27 17:45:40,train_dev
+Fire,166,2022-10-27 15:41:30,train_dev
+Fire,168,2022-10-27 17:48:02,train_dev
+Fire,169,2022-10-26 19:12:19,train_dev
+Fire,170,2022-10-27 17:47:00,train_dev
+Fire,171,2022-10-26 18:33:54,train_dev
+Fire,173,2022-10-26 18:44:09,train_dev
+Fire,174,2022-10-27 17:49:44,train_dev
+Fire,176,2022-10-27 19:22:11,train_dev
+Fire,177,2022-10-27 15:43:09,train_dev
+Fire,179,2022-10-27 15:41:21,train_dev
+Fire,181,2022-10-25 16:54:25,train_dev
+Fire,182,2022-10-27 15:42:48,train_dev
+Fire,183,2022-10-27 17:10:46,train_dev
+Fire,185,2022-10-26 18:44:18,train_dev
+Fire,187,2022-10-25 16:54:07,train_dev
+Fire,189,2022-10-27 17:46:00,train_dev
+Fire,190,2022-10-26 18:31:48,train_dev
+Fire,192,2022-10-27 19:22:56,train_dev
+Fire,194,2022-10-25 16:54:04,train_dev
+Fire,196,2022-10-27 17:45:36,train_dev
+Fire,197,2022-10-27 17:11:01,train_dev
+Fire,198,2022-10-27 17:47:14,train_dev
+Fire,201,2022-10-27 15:38:16,train_dev
+Fire,202,2022-10-27 17:46:22,train_dev
+Fire,206,2022-10-27 15:26:50,train_dev
+Fire,207,2022-10-26 18:44:12,train_dev
+Fire,209,2022-10-27 17:48:05,train_dev
+Fire,210,2022-10-26 18:32:39,train_dev
+Fire,211,2022-10-27 17:46:02,train_dev
+Fire,212,2022-10-26 18:44:33,train_dev
+Fire,213,2022-10-27 17:46:18,train_dev
+Fire,215,2022-10-27 19:22:32,train_dev
+Fire,216,2022-10-26 18:34:53,train_dev
+Fire,218,2022-10-27 17:46:20,train_dev
+Fire,219,2022-10-26 18:33:48,train_dev
+Fire,223,2022-10-27 15:27:14,train_dev
+Fire,226,2022-10-27 17:47:44,train_dev
+Fire,229,2022-10-26 18:32:54,train_dev
+Fire,230,2022-10-27 17:47:56,train_dev
+Fire,232,2022-10-27 15:27:46,train_dev
+Fire,233,2022-10-27 17:48:56,train_dev
+Fire,234,2022-10-26 18:31:57,train_dev
+Fire,235,2022-10-27 17:47:18,train_dev
+Fire,239,2022-10-27 17:48:53,train_dev
+Fire,240,2022-10-27 19:22:17,train_dev
+Fire,242,2022-10-27 19:22:26,train_dev
+Fire,245,2022-10-27 17:10:52,train_dev
+Fire,249,2022-10-27 17:11:40,train_dev
+Fire,250,2022-10-27 17:49:38,train_dev
+Fire,251,2022-10-25 17:02:26,train_dev
+Fire,252,2022-10-27 17:49:59,train_dev
+Fire,253,2022-10-25 17:01:45,train_dev
+Fire,254,2022-10-27 17:46:48,train_dev
+Fire,255,2022-10-26 18:31:36,train_dev
+Fire,259,2022-10-27 17:11:43,train_dev
+Fire,260,2022-10-27 15:39:20,train_dev
+Fire,264,2022-10-26 18:32:36,train_dev
+Fire,265,2022-10-27 17:47:59,train_dev
+Fire,266,2022-10-27 15:42:57,train_dev
+Fire,267,2022-10-27 15:42:06,train_dev
+Fire,268,2022-10-27 17:45:52,train_dev
+Fire,269,2022-10-25 16:54:13,train_dev
+Fire,270,2022-10-27 17:46:26,train_dev
+Fire,272,2022-10-27 17:46:44,train_dev
+Fire,273,2022-10-26 18:44:39,train_dev
+Fire,274,2022-10-27 17:11:10,train_dev
+Fire,275,2022-10-26 18:44:36,train_dev
+Fire,276,2022-10-27 15:40:23,train_dev
+Fire,277,2022-10-26 18:32:15,train_dev
+Fire,278,2022-10-25 16:53:52,train_dev
+Fire,279,2022-10-26 18:34:12,train_dev
+Fire,280,2022-10-27 15:27:08,train_dev
+Fire,281,2022-10-27 17:45:54,train_dev
+Fire,282,2022-10-26 19:11:48,train_dev
+Fire,284,2022-10-27 17:12:13,train_dev
+Fire,285,2022-10-27 17:46:16,train_dev
+Fire,287,2022-10-25 17:02:47,train_dev
+Fire,288,2022-10-27 17:11:19,train_dev
+Fire,289,2022-10-27 15:26:44,train_dev
+Fire,290,2022-10-27 17:49:23,train_dev
+Fire,296,2022-10-27 15:42:30,train_dev
+Fire,298,2022-10-26 19:12:22,train_dev
+Fire,300,2022-10-27 17:46:52,train_dev
+Fire,301,2022-10-27 15:43:03,train_dev
+Fire,303,2022-10-27 15:43:39,train_dev
+Fire,305,2022-10-27 17:11:31,train_dev
+Fire,306,2022-10-27 15:38:34,train_dev
+Fire,309,2022-10-26 18:32:09,train_dev
+Fire,310,2022-10-27 19:22:59,train_dev
+Fire,311,2022-10-27 15:42:18,train_dev
+Fire,312,2022-10-27 17:49:26,train_dev
+Fire,313,2022-10-25 17:02:59,train_dev
+Fire,314,2022-10-27 17:10:58,train_dev
+Fire,316,2022-10-27 19:22:35,train_dev
+Fire,318,2022-10-27 17:48:44,train_dev
+Fire,319,2022-10-27 17:47:16,train_dev
+Fire,321,2022-10-27 15:38:19,train_dev
+Fire,322,2022-10-25 16:53:55,train_dev
+Fire,323,2022-10-27 17:12:01,train_dev
+Fire,324,2022-10-26 18:32:12,train_dev
+Fire,325,2022-10-27 17:11:46,train_dev
+Fire,326,2022-10-26 18:32:42,train_dev
+Fire,328,2022-10-26 18:33:18,train_dev
+Fire,329,2022-10-27 17:49:53,train_dev
+Fire,330,2022-10-27 17:46:10,train_dev
+Fire,331,2022-10-26 18:32:21,train_dev
+Fire,332,2022-10-25 16:53:43,train_dev
+Fire,333,2022-10-27 17:11:25,train_dev
+Fire,336,2022-10-27 15:39:26,train_dev
+Fire,339,2022-10-27 19:21:53,train_dev
+Fire,340,2022-10-26 19:11:45,train_dev
+Fire,341,2022-10-26 18:33:33,train_dev
+Fire,343,2022-10-27 15:42:45,train_dev
+Fire,345,2022-10-27 17:45:38,train_dev
+Fire,347,2022-10-27 17:48:29,train_dev
+Fire,351,2022-10-27 15:39:01,train_dev
+Fire,352,2022-10-27 17:11:34,train_dev
+Fire,353,2022-10-25 17:01:35,train_dev
+Fire,354,2022-10-27 15:27:05,train_dev
+Fire,355,2022-10-26 18:31:54,train_dev
+Fire,357,2022-10-27 15:38:49,train_dev
+Fire,360,2022-10-27 17:49:47,train_dev
+Fire,361,2022-10-27 17:49:29,train_dev
+Fire,362,2022-10-26 18:43:42,train_dev
+Fire,363,2022-10-27 17:46:46,train_dev
+Fire,364,2022-10-26 18:34:09,train_dev
+Fire,365,2022-10-27 15:41:33,train_dev
+Fire,366,2022-10-27 17:48:41,train_dev
+Fire,368,2022-10-27 17:11:04,train_dev
+Fire,369,2022-10-27 17:47:32,train_dev
+Fire,371,2022-10-27 17:48:17,train_dev
+Fire,372,2022-10-27 15:38:22,train_dev
+Fire,373,2022-10-27 15:43:36,train_dev
+Fire,374,2022-10-25 16:54:19,train_dev
+Fire,377,2022-10-27 17:49:32,train_dev
+Fire,384,2022-10-26 18:34:18,train_dev
+Fire,386,2022-10-27 15:41:09,train_dev
+Fire,387,2022-10-26 18:34:44,train_dev
+Fire,389,2022-10-27 17:47:53,train_dev
+Fire,392,2022-10-27 15:39:11,train_dev
+Fire,393,2022-10-27 17:12:04,train_dev
+Fire,394,2022-10-25 16:53:40,train_dev
+Fire,395,2022-10-26 18:31:42,train_dev
+Fire,397,2022-10-27 15:27:17,train_dev
+Fire,399,2022-10-27 15:40:29,train_dev
+Fire,401,2022-10-27 17:47:12,train_dev
+Fire,402,2022-10-27 17:11:28,train_dev
+Fire,403,2022-10-26 18:43:51,train_dev
+Fire,404,2022-10-26 19:11:54,train_dev
+Fire,406,2022-10-26 18:33:27,train_dev
+Fire,408,2022-10-25 17:02:50,train_dev
+Fire,415,2022-10-26 18:43:33,train_dev
+Fire,416,2022-10-26 18:33:51,train_dev
+Fire,417,2022-10-27 15:42:36,train_dev
+Fire,420,2022-10-27 19:21:59,train_dev
+Fire,422,2022-10-27 19:21:31,train_dev
+Fire,423,2022-10-27 17:47:30,train_dev
+Fire,424,2022-10-26 18:43:57,train_dev
+Fire,425,2022-10-27 17:49:08,train_dev
+Fire,426,2022-10-27 17:49:14,train_dev
+Fire,427,2022-10-27 19:22:20,train_dev
+Fire,429,2022-10-27 17:46:56,train_dev
+Fire,430,2022-10-27 17:46:08,train_dev
+Fire,432,2022-10-27 17:46:14,train_dev
+Fire,434,2022-10-27 19:22:44,train_dev
+Fire,435,2022-10-27 15:26:47,train_dev
+Fire,436,2022-10-26 18:33:57,train_dev
+Fire,438,2022-10-27 15:40:20,train_dev
+Fire,439,2022-10-27 15:40:32,train_dev
+Fire,440,2022-10-27 17:47:41,train_dev
+Fire,441,2022-10-27 19:21:56,train_dev
+Fire,442,2022-10-27 15:27:26,train_dev
+Fire,450,2022-10-25 17:02:32,train_dev
+Fire,451,2022-10-27 17:48:08,train_dev
+Fire,452,2022-10-26 18:33:15,train_dev
+Fire,453,2022-10-27 15:26:56,train_dev
+Fire,456,2022-10-27 15:42:21,train_dev
+Fire,458,2022-10-25 16:54:01,train_dev
+Fire,460,2022-10-27 15:41:45,train_dev
+Fire,461,2022-10-25 17:02:09,train_dev
+Fire,464,2022-10-26 19:11:51,train_dev
+Fire,465,2022-10-26 18:44:30,train_dev
+Fire,466,2022-10-27 17:46:06,train_dev
+Fire,467,2022-10-27 17:46:30,train_dev
+Fire,469,2022-10-27 15:38:43,train_dev
+Fire,470,2022-10-27 15:38:13,train_dev
+Fire,472,2022-10-27 17:46:28,train_dev
+Fire,474,2022-10-26 18:32:27,train_dev
+Fire,475,2022-10-27 17:46:40,train_dev
+Fire,476,2022-10-27 19:21:50,train_dev
+Fire,477,2022-10-25 17:02:35,train_dev
+Fire,478,2022-10-26 18:34:00,train_dev
+Fire,479,2022-10-27 17:45:42,train_dev
+Fire,480,2022-10-27 15:43:00,train_dev
+Fire,481,2022-10-27 19:21:47,train_dev
+Fire,482,2022-10-27 15:43:24,train_dev
+Fire,484,2022-10-26 19:12:34,train_dev
+Fire,485,2022-10-27 17:48:20,train_dev
+Fire,489,2022-10-27 17:48:50,train_dev
+Fire,490,2022-10-26 18:33:12,train_dev
+Fire,493,2022-10-26 18:32:03,train_dev
+Fire,497,2022-10-26 18:44:24,train_dev
+Fire,502,2022-10-26 18:32:33,train_dev
+Fire,503,2022-10-26 18:32:51,train_dev
+Fire,505,2022-10-27 15:42:54,train_dev
+Fire,507,2022-10-27 17:45:58,train_dev
+Fire,511,2022-10-27 19:22:29,train_dev
+Fire,512,2022-10-26 19:12:25,train_dev
+Fire,514,2022-10-27 15:41:06,train_dev
+Fire,515,2022-10-27 17:12:07,train_dev
+Fire,516,2022-10-27 15:40:47,train_dev
+Fire,517,2022-10-25 17:01:39,train_dev
+Fire,518,2022-10-27 17:45:56,train_dev
+Fire,519,2022-10-27 15:40:44,train_dev
+Fire,520,2022-10-26 18:33:24,train_dev
+Fire,521,2022-10-27 15:38:58,train_dev
+Fire,522,2022-10-26 18:31:45,train_dev
+Fire,523,2022-10-27 15:39:35,train_dev
+Fire,524,2022-10-27 19:22:02,train_dev
+Fire,525,2022-10-27 17:11:58,train_dev
+Fire,526,2022-10-27 19:23:08,train_dev
+Fire,527,2022-10-27 17:46:34,train_dev
+Fire,528,2022-10-27 19:23:05,train_dev
+Fire,529,2022-10-27 17:46:12,train_dev
+Fire,531,2022-10-25 17:04:36,train_dev
+Fire,533,2022-10-25 16:53:58,train_dev
+Fire,534,2022-10-27 17:46:32,train_dev
+Fire,535,2022-10-27 15:40:38,train_dev
+Fire,537,2022-10-27 15:27:29,train_dev
+Fire,538,2022-10-25 17:02:11,train_dev
+Fire,540,2022-10-27 15:38:28,train_dev
+Fire,542,2022-10-26 18:44:42,train_dev
+Fire,543,2022-10-27 15:43:21,train_dev
+Fire,545,2022-10-26 19:12:31,train_dev
+Fire,549,2022-10-27 15:43:06,train_dev
+Fire,550,2022-10-26 18:43:54,train_dev
+Fire,552,2022-10-26 18:33:03,train_dev
+Fire,555,2022-10-27 15:40:41,train_dev
+Fire,557,2022-10-27 15:42:03,train_dev
+Fire,559,2022-10-26 18:34:03,train_dev
+Fire,560,2022-10-27 15:41:18,train_dev
+Fire,564,2022-10-25 17:02:20,train_dev
+Fire,568,2022-10-27 17:11:16,train_dev
+Fire,575,2022-10-25 17:01:42,train_dev
+Fire,576,2022-10-26 18:31:51,train_dev
+Fire,577,2022-10-27 15:43:18,train_dev
+Fire,578,2022-10-27 15:42:51,train_dev
+Fire,579,2022-10-26 18:33:45,train_dev
+Fire,580,2022-10-27 17:47:04,train_dev
+Fire,586,2022-10-27 17:45:47,train_dev
+Fire,587,2022-10-26 18:44:03,train_dev
+Fire,588,2022-10-26 18:32:18,train_dev
+Fire,589,2022-10-27 15:38:25,train_dev
+Fire,590,2022-10-27 15:41:54,train_dev
+Fire,591,2022-10-27 17:11:52,train_dev
+Fire,592,2022-10-27 17:47:34,train_dev
+Fire,594,2022-10-27 17:48:14,train_dev
+Fire,595,2022-10-25 17:01:59,train_dev
+Fire,600,2022-10-25 16:54:22,train_dev
+Fire,601,2022-10-26 18:44:27,train_dev
+Fire,602,2022-10-26 19:12:16,train_dev
+Fire,604,2022-10-25 17:02:15,train_dev
+Fire,608,2022-10-27 19:22:50,train_dev
+Fire,610,2022-10-26 18:43:48,train_dev
+Fire,611,2022-10-27 17:48:11,train_dev
+Fire,612,2022-10-27 17:11:49,train_dev
+Fire,613,2022-10-25 17:02:02,train_dev
+Fire,614,2022-10-25 17:02:38,train_dev
+Fire,615,2022-10-27 15:39:32,train_dev
+Fire,619,2022-10-27 19:21:44,train_dev
+Fire,620,2022-10-27 15:41:39,train_dev
+Fire,621,2022-10-27 19:22:41,train_dev
+Fire,622,2022-10-26 18:44:21,train_dev
+No Fire,1,2022-10-25 17:03:48,train_dev
+No Fire,2,2022-10-25 17:06:15,train_dev
+No Fire,3,2022-10-25 17:05:00,train_dev
+No Fire,4,2022-10-25 17:05:09,train_dev
+No Fire,5,2022-10-25 17:06:48,train_dev
+No Fire,6,2022-10-25 17:04:50,train_dev
+No Fire,7,2022-10-25 17:06:12,train_dev
+No Fire,10,2022-10-25 17:05:24,train_dev
+No Fire,12,2022-10-25 17:03:33,train_dev
+No Fire,13,2022-10-25 17:03:45,train_dev
+No Fire,14,2022-10-25 17:03:30,train_dev
+No Fire,15,2022-10-26 19:12:49,train_dev
+No Fire,16,2022-10-25 17:04:12,train_dev
+No Fire,17,2022-10-25 17:03:18,train_dev
+No Fire,18,2022-10-25 17:04:48,train_dev
+No Fire,19,2022-10-25 17:06:18,train_dev
+No Fire,21,2022-10-25 17:06:36,train_dev
+No Fire,25,2022-10-26 19:13:07,train_dev
+No Fire,27,2022-10-25 17:05:39,train_dev
+No Fire,29,2022-10-25 17:04:27,train_dev
+No Fire,31,2022-10-25 17:06:42,train_dev
+No Fire,33,2022-10-25 17:06:21,train_dev
+No Fire,37,2022-10-25 17:04:15,train_dev
+No Fire,39,2022-10-25 17:04:08,train_dev
+No Fire,42,2022-10-25 17:05:54,train_dev
+No Fire,44,2022-10-25 17:04:18,train_dev
+No Fire,48,2022-10-25 17:03:11,train_dev
+No Fire,50,2022-10-25 17:03:42,train_dev
+No Fire,52,2022-10-25 17:06:33,train_dev
+No Fire,53,2022-10-25 17:05:50,train_dev
+No Fire,54,2022-10-25 17:04:53,train_dev
+No Fire,56,2022-10-25 17:04:33,train_dev
+No Fire,58,2022-10-25 17:04:57,train_dev
+No Fire,59,2022-10-25 17:03:36,train_dev
+No Fire,62,2022-10-25 17:03:23,train_dev
+No Fire,64,2022-10-26 19:13:10,train_dev
+No Fire,66,2022-10-25 17:04:45,train_dev
+No Fire,67,2022-10-25 17:03:59,train_dev
+No Fire,68,2022-10-25 17:03:15,train_dev
+No Fire,71,2022-10-25 17:06:30,train_dev
+No Fire,72,2022-10-25 17:06:54,train_dev
+No Fire,73,2022-10-25 17:04:39,train_dev
+No Fire,77,2022-10-25 17:03:54,train_dev
+No Fire,78,2022-10-26 19:13:04,train_dev
+No Fire,80,2022-10-25 17:05:12,train_dev
+No Fire,86,2022-10-25 17:03:08,train_dev
+No Fire,87,2022-10-25 17:06:08,train_dev
+No Fire,88,2022-10-25 17:06:03,train_dev
+No Fire,91,2022-10-26 19:12:58,train_dev
+No Fire,92,2022-10-25 17:04:30,train_dev
+No Fire,93,2022-10-26 19:13:01,train_dev
+No Fire,94,2022-10-25 17:04:42,train_dev
+No Fire,95,2022-10-25 17:03:50,train_dev
+No Fire,96,2022-10-25 17:05:30,train_dev
+No Fire,98,2022-10-25 17:06:27,train_dev
+No Fire,99,2022-10-25 17:05:47,train_dev
+No Fire,100,2022-10-25 17:06:51,train_dev
+No Fire,101,2022-10-25 17:03:39,train_dev
+No Fire,102,2022-10-25 17:05:06,train_dev
+No Fire,104,2022-10-25 17:04:21,train_dev
+No Fire,105,2022-10-25 17:05:45,train_dev
+No Fire,106,2022-10-25 17:05:17,train_dev
+No Fire,107,2022-10-25 17:06:39,train_dev
+No Fire,108,2022-10-25 17:05:57,train_dev
+No Fire,109,2022-10-25 17:06:06,train_dev
+No Fire,110,2022-10-25 17:03:57,train_dev
+No Fire,112,2022-10-25 17:03:05,train_dev
+No Fire,113,2022-10-25 17:06:45,train_dev
+No Fire,114,2022-10-25 17:05:03,train_dev
+No Fire,115,2022-10-25 17:05:33,train_dev

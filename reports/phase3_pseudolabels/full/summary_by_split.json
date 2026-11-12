@@ -1,0 +1,23 @@
+{
+  "train": {
+    "requested": 517,
+    "success": 427,
+    "no_valid_box": 8,
+    "no_valid_box_background": 82,
+    "failed": 0
+  },
+  "validation": {
+    "requested": 111,
+    "success": 94,
+    "no_valid_box": 1,
+    "no_valid_box_background": 16,
+    "failed": 0
+  },
+  "test": {
+    "requested": 110,
+    "success": 91,
+    "no_valid_box": 1,
+    "no_valid_box_background": 18,
+    "failed": 0
+  }
+}

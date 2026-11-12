@@ -1,0 +1,14 @@
+{
+  "source_manifest": "reports\\phase3_split\\split_manifest.csv",
+  "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+  "model": "vit_b",
+  "device": "cuda",
+  "threshold_c": 80.0,
+  "minimum_component_area": 50,
+  "requested_rows": 3,
+  "status_counts": {
+    "success": 2,
+    "no_valid_box": 1
+  },
+  "limit_per_split": 1
+}

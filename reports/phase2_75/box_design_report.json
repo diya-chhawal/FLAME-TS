@@ -1,0 +1,14 @@
+{
+  "config": "configs\\phase2_75_box_design.json",
+  "metric_rows": 11070,
+  "summary_rows": 15,
+  "visualization_count": 99,
+  "strategies": [
+    "largest_component",
+    "union",
+    "spatial_grouped"
+  ],
+  "grouping_rule": "Components are joined when Euclidean gap between their axis-aligned bounding boxes is at most the configured distance; grouping is transitive.",
+  "excessive_box_area_fraction": 0.25,
+  "boundary": "This is a box-design experiment only. No SAM masks, final pseudo-labels, model training, or permanent parameter selection were performed."
+}

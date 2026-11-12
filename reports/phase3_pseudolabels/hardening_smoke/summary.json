@@ -1,0 +1,35 @@
+{
+  "source_manifest": "reports\\phase3_split\\split_manifest.csv",
+  "checkpoint": "checkpoints\\sam_vit_b_01ec64.pth",
+  "model": "vit_b",
+  "device": "cuda",
+  "threshold_c": 80.0,
+  "minimum_component_area": 50,
+  "limit_per_split": 1,
+  "resumed_completed": 3,
+  "processed_this_run": 0,
+  "total": 3,
+  "split_counts": {
+    "train": {
+      "requested": 1,
+      "success": 1,
+      "no_valid_box": 0,
+      "no_valid_box_background": 0,
+      "failed": 0
+    },
+    "validation": {
+      "requested": 1,
+      "success": 1,
+      "no_valid_box": 0,
+      "no_valid_box_background": 0,
+      "failed": 0
+    },
+    "test": {
+      "requested": 1,
+      "success": 0,
+      "no_valid_box": 1,
+      "no_valid_box_background": 0,
+      "failed": 0
+    }
+  }
+}
